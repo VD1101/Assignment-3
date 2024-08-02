@@ -13,7 +13,7 @@ const hoverImage = document.getElementById('hoverImage');
 const hoverText = document.getElementById('hoverText');
 
 hoverImage.addEventListener('mouseover', () => {
-    hoverImage.src = 'example2.jpg'; // Ensure you have a different image named example2.jpg
+    hoverImage.src = 'image-2.jpg'; // Ensure you have a different image named example2.jpg
     hoverText.textContent = 'You hovered over the image!';
 });
 
