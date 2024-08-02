@@ -13,12 +13,12 @@ const hoverImage = document.getElementById('hoverImage');
 const hoverText = document.getElementById('hoverText');
 
 hoverImage.addEventListener('mouseover', () => {
-    hoverImage.src = 'image-2.jpg'; // Ensure you have a different image named example2.jpg
+    hoverImage.src = 'image-2.webp'; // Ensure you have a different image named example2.jpg
     hoverText.textContent = 'You hovered over the image!';
 });
 
 hoverImage.addEventListener('mouseout', () => {
-    hoverImage.src = 'example.jpg';
+    hoverImage.src = 'image.webp';
     hoverText.textContent = 'Hover over the image to see it change!';
 });
 
