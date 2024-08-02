@@ -25,7 +25,7 @@ hoverImage.addEventListener('mouseout', () => {
 // Change color of list items on click
 const colorList = document.getElementById('colorList');
 const listItems = colorList.getElementsByTagName('li');
-
+    
 for (let i = 0; i < listItems.length; i++) {
     listItems[i].addEventListener('click', () => {
         listItems[i].style.color = listItems[i].style.color === 'red' ? 'green' : 'red';
